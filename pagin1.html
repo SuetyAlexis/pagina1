@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sans Undertale</title>
+    <style>
+        @font-face {
+            font-family: 'PixelOperator';
+            src: url('pixel_operator/PixelOperator-Bold.ttf') format('truetype');
+            font-weight: bold;
+            font-style: normal;
+        }
+        body {
+            background-color: rgb(0, 0, 0);
+            font-size: 2em;
+            font-family: 'PixelOperator', 'Comic Sans MS', cursive, sans-serif;
+            color: white;
+            text-align: center;
+        }
+        h1 {
+            color: #003399; /* azul rey */
+            text-align: center;
+            font-size: 3em;
+            font-family: 'PixelOperator', 'Georgia', serif;
+        }
+    </style>
+</head>
+<body>
+    <h1> Undertale</h1>
+    <p> porque no dejas que sans te muestre un video</p>
+    <br><br>
+    <img src="https://static.wikia.nocookie.net/undertale/images/8/8c/Sans_sprite.png/revision/latest/scale-to-width/360?cb=20170108140919&path-prefix=es" alt="Descripción de la imagen">
+    <video id="videoSans" src="C:\Users\c-men\OneDrive\Desktop\Adobe\26 y 26\Animacion dinamica\OFFICIAL FULL VERSION _ Asgore Runs Over Dess WITH LYRICS _ Deltarune LYRICAL COVER _ ft. @Bub8les.mp4" controls width="1280" height="680" autoplay muted>
+        Tu navegador no soporta el elemento de video.
+    </video>
+    <script>
+        // Intenta reproducir el video al cargar la página
+        window.onload = function() {
+            var video = document.getElementById('videoSans');
+            video.play();
+        };
+    </script>
+</body>
+</html>
